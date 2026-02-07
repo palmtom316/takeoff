@@ -2,6 +2,7 @@ node_modules/
 dist/
 .vite/
 coverage/
+*.tsbuildinfo
 
 src-tauri/target/
 **/*.rs.bk
@@ -15,3 +16,7 @@ src-tauri/target/
 worktrees/
 
 *.tmp
+vite.config.js
+vite.config.d.ts
+vitest.config.js
+vitest.config.d.ts

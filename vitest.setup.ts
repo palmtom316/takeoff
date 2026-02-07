@@ -1,5 +1,8 @@
 import "@testing-library/jest-dom/vitest";
 
+const rawGetComputedStyle = window.getComputedStyle.bind(window);
+window.getComputedStyle = ((element: Element) => rawGetComputedStyle(element)) as typeof window.getComputedStyle;
+
 if (!window.matchMedia) {
   Object.defineProperty(window, "matchMedia", {
     writable: true,
