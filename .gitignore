@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+coverage/
+
+src-tauri/target/
+**/*.rs.bk
+
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+.worktrees/
+worktrees/
+
+*.tmp

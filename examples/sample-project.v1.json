@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "trenches": [
+    {
+      "id": "trench-001",
+      "name": "主干沟段 A",
+      "length_m": 28.0,
+      "width_m": 1.2,
+      "depth_m": 2.1,
+      "source_refs": ["LAYER:PIPE-TRENCH", "POLYLINE:73", "TEXT:DN500"]
+    }
+  ],
+  "manholes": [
+    {
+      "id": "manhole-001",
+      "name": "检查井 M1",
+      "pit_length_m": 2.2,
+      "pit_width_m": 2.2,
+      "pit_depth_m": 3.0,
+      "wall_thickness_m": 0.24,
+      "source_refs": ["BLOCK:MANHOLE", "TEXT:WELL-M1"]
+    }
+  ]
+}
